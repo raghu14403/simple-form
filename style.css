@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+:root{
+    --size:19%;
+    --color:#fec7d7;
+    --text:#0e172c;
+    --border:#a786df;
+}
+
+body{
+    background-color: var(--color);
+    color: var(--text);
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.25rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border: 3px solid var(--border);
+    padding: 0.25em 0;
+    padding-left: 1em;
+    margin:1em auto;
+    width: var(--size);
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+}
+.drop{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list{
+    width: 20%;
+}
+.hidden-content{
+    display: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    padding: 1em 2em;
+    text-align: center;
+}
+li:hover{
+    background-color:#a786df;
+    border: 1px solid #0e172c;
+    border-radius: 7px;
+}
+
+.arrowImg{
+    margin-left: 2em;
+    margin-right: 0.5em;
+    cursor: pointer;
+    transition: transform 0.22s linear;
+}
+.myImage{
+    padding-right: 0.6em;
+}
+button{
+    padding: 0.7em 4em;
+    background-color: #0e172c;
+    color: #fffffe;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Shantell Sans', cursive;
+}
+button:hover{
+    background-color: var(--color);
+    color: #0e172c;
+}
